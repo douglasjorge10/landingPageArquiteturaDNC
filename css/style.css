@@ -81,3 +81,50 @@ header{
     line-height: 30px;
 }
 /* footer form */
+footer{
+    background-color: #303030;
+    height: 538px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-flow: column;
+    gap: 50px;
+    align-items: center;
+}
+.form_title{
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+}
+input{
+    width: 508px;
+    height: 72px;
+    border-radius: 10px;
+    border: none;
+}
+input::placeholder{
+    font-size: 24px;
+    font-weight: 700;
+    text-indent: 10px ;
+    color: #0000004f;
+}
+.form_btn{
+    width: 286px;
+    height: 74px;
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color:#C07212;
+    color: #fff;
+}
+
+footer small{
+    margin: 70px 0 0 0;
+    color: #ffffff88;
+}
