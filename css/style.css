@@ -103,6 +103,8 @@ form{
 input{
     width: 508px;
     height: 72px;
+    font-size: 30px;
+    text-indent: 10px;
     border-radius: 10px;
     border: none;
 }
